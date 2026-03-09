@@ -23,6 +23,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://nautom.com"),
   title: "Nautom — Agentes de IA y automatización para PyMEs argentinas",
   description:
     "Creamos agentes de inteligencia artificial, automatizamos procesos y desarrollamos aplicaciones internas a medida para PyMEs en Argentina. Agencia boutique de tecnología AI-first.",
@@ -53,6 +54,21 @@ export const metadata: Metadata = {
     siteName: "Nautom",
     locale: "es_AR",
     type: "website",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Nautom — Agentes IA para PyMEs",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Nautom — Agentes de IA y automatización para PyMEs argentinas",
+    description:
+      "Creamos agentes de IA, automatizamos operaciones y desarrollamos herramientas internas a medida.",
+    images: ["/og-image.png"],
   },
 };
 
